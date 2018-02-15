@@ -1,6 +1,7 @@
-#include<bits/stdc++.h>
-#include<ext/numeric>
-
+/*
+Remove circles with radius zero as they doesn't affect the answer in any way. Since they are only 15 circles we can brute force
+on all possible subsets to find out which circles intersect with each others. We can use bitmasks for brute force.
+*/
 using namespace std;
 using namespace __gnu_cxx;
 
