@@ -1,3 +1,10 @@
+/*
+Simulate the circuit completely, then if the expected outputs are the same as the ones given in the input then there's no problem.
+Else, you have to run the simulation again but with picking a gate and assigning it a fault, then if the outputs with that fault 
+are the same as the ones given in the input then that gate is potentially the problem. So, brute force the gates and faults (19*3=57)
+and if there's is exactly one gate with exactly one fault, then you know where the fault is, else you can never know.
+*/
+
 #include<bits/stdc++.h>
 #include<ext/numeric>
 
