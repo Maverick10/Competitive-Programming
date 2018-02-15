@@ -1,3 +1,7 @@
+/*
+Basic minimum enclosing circle application
+*/
+
 #include<bits/stdc++.h>
 #include<ext/numeric>
 
