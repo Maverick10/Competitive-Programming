@@ -1,3 +1,10 @@
+/*
+The main idea is to add lines as points appear keeping in mind that the added line doesn't intersect
+any of the already added lines of either colors. Then do a dfs from an extreme point where X = 0 and check if we can reach
+the other extreme point (X=n) if that happened then black wins else black doesn't win
+*/
+
+
 #include<bits/stdc++.h>
 #include<ext/numeric>
 
