@@ -6,6 +6,7 @@ dp[i][j][k][b] => minimum distance that can be covered to the end given that we 
 standing at node i, the last picked node for the first path is j, the last picked node
 for the second path is k, and b is a boolean that states whether we picked a red node 
 for the first path or not.
+Complexity: O(n^3 * 2)
 */
 #include<bits/stdc++.h>
 using namespace std;
