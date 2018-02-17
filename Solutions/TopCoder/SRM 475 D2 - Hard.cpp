@@ -1,3 +1,6 @@
+/*
+Implementation for the tutorial in https://apps.topcoder.com/wiki/display/tc/SRM+475
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
