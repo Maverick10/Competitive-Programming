@@ -1,7 +1,7 @@
 /*
 It's always possible to divide the plane into two parts where every point belongs to exactly
-one of them. Since n is relatively small (n<=100) we can try every pair of points to consider
-them as parts of different parts, and then using cross product we can determine which side
+one of them. Since n is relatively small (n<=100) we can try every pair of points abd consider 
+the two points to belong to different parts, and then using cross product we can determine which side
 every other point is on.
 */
 
