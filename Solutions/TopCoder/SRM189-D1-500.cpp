@@ -37,8 +37,8 @@ struct ScheduleResources {
 				else if (_out == out[i | (1 << j)])
 					in[i | (1 << j)] = min(_in, in[i | (1 << j)]);
 			}
-		for (int i = 0; i < (1 << n); ++i)
-			cout << out[i] << endl;
+// 		for (int i = 0; i < (1 << n); ++i)
+// 			cout << out[i] << endl;
 		return out[(1 << n) - 1];
 	}
 };
