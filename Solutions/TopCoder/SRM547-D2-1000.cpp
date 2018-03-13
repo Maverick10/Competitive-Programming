@@ -9,7 +9,7 @@ indicated by msk). Problem is memory complexity will now be O(2^25 * n) which wi
 but we can easily realize that we don't need to keep track of any prime divisor greater than
 50, let a prime number greater than 50 be a divisor of a number x, since x is not greater
 than 100, this implies that x is a prime number and is in fact that prime divisor we are talking
-about. so we will only need to keep track of the prime numbers less than 50. and they are
+about. so we will only need to keep track of the prime numbers less than 50. and there are
 15 of them.
 
 Memory complexity: O(2^15 * n)
