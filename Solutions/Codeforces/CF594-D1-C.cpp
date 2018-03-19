@@ -1,3 +1,13 @@
+/*
+let's first assume that we don't remove any magnet, then the answer will be the rectangle that passes through the centers of the extreme
+magnets (whose centers have the maximum x, minimum x, maximum y or minimum y). if we want to remove any magnet, we should remove one that
+lies on the boundary of the refrigerator, thus making the boundaries move toward the center of the rectangle, which will minimize the area.
+since k <= 10 we can brute force on the vertical boundaries to see which magnets to remove, and for every possible subset we brute force
+on the horizontal boundaries to see which magnets to remove from there as well, and every time we minimize the area that we get.
+
+Complexity: O(k* 2^k + nlogn)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
