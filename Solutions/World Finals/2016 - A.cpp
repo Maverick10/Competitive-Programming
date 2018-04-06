@@ -77,3 +77,4 @@ int main() {
 	}
 	puts("forever");
 }
+
